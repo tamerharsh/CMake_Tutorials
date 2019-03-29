@@ -7,7 +7,7 @@
  
  This will give the complete menu.
  
- Compile Options
+ Compiler Options
  Generators etc
 _________________________________________________
 2. To get the command list.  
