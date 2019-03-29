@@ -1,0 +1,43 @@
+#using CMake VIA COMMAND PROMPT
+=================================
+
+
+1.Open the command prompt and type
+>>cmake --help
+ 
+ This will give the complete menu.
+ 
+ Compile Options
+ Generators etc
+_________________________________________________
+2. To get the command list.  
+ 
+>>cmake --help-command-list
+ 
+This will show all the commands.
+__________________________________________________
+3. To get the description of a command.
+ 
+Syntax:- cmake --help-command <commandname>
+ 
+Example:- 
+>>cmake --help-command add_library
+ 
+This will give the details of command add_library.
+____________________________________________________
+ 
+ 4.To know about the various variables used in the CMAKE. 
+ 
+>>cmake --help-variable-list
+
+This will give the complete list of variables.
+___________________________________________________
+ 
+ 5.To get the description of a variable. 
+ 
+Syntax:- cmake --help-variable <variablename> 
+
+Example:- 
+>>cmake --help-variable PROJECT_BINARY_DIR
+
+This will give the description of variable PROJECT_BINARY_DIR.
