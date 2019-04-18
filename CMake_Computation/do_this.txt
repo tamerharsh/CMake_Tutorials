@@ -14,7 +14,7 @@ cd build
 Step 2
 =======
 
-cmake -Ax64 -L -DCMAKE_BUILD_TYPE=RELEASE
+cmake -Ax64 -L -DCMAKE_BUILD_TYPE=RELEASE ..
 CMAKE --build . --clean-first --config Release --target INSTALL
 
 
